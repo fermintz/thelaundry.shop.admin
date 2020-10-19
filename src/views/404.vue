@@ -1,5 +1,5 @@
 <template>
-  <div class="errorPage">
+  <div class="errorPage fill-height">
     <h2>404</h2>
     <h4>죄송합니다. 현재 찾을 수 없는 페이지를 요청하셨습니다.</h4>
     <p>존재하지 않는 주소를 입력하셨거나, 요청하신 페이지의 주소가 변경, <br>삭제되어 찾을 수 없습니다</p>
@@ -13,6 +13,7 @@
 <style lang="scss" scoped>
 .errorPage{
   display:flex;
+  flex:1;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -30,6 +31,8 @@
   h4{
     font-size:24px;
     margin-top:40px;
+    font-family:'NotoSansKR';
+    font-weight:500;
   }
   p{
     margin-top:10px;

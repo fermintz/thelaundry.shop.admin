@@ -1,99 +1,43 @@
 @font-face {
-  font-family: 'SCDream';
-  src: 
-    url('../fonts/SCDream1.woff') format('woff');
-  font-weight: 100;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'SCDream';
-  src: 
-    url('../fonts/SCDream2.woff') format('woff');
-  font-weight: 200;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'SCDream';
-  src: 
-    url('../fonts/SCDream3.woff') format('woff');
-  font-weight: 300;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'SCDream';
-  src: 
-    url('../fonts/SCDream4.woff') 
-    format('woff');
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'SCDream';
-  src: 
-    url('../fonts/SCDream5.woff') 
-    format('woff');
-  font-weight: 500;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'SCDream';
-  src: 
-    url('../fonts/SCDream6.woff') 
-    format('woff');
-  font-weight: 600;
-  font-style: normal;
+    font-family: 'notoSansKR';
+    src: url('../fonts/NotoKR-Bold/notokr-bold.eot'),
+    url('../fonts/NotoKR-Bold/notokr-bold.woff2') format('woff2'),
+    url('../fonts/NotoKR-Bold/notokr-bold.woff') format('woff'),
+    url('../fonts/NotoKR-Bold/notokr-bold.ttf') format('truetype'),
+    url('../fonts/NotoKR-Bold/notokr-bold.svg#notokr-bold') format('svg');
+    font-weight: 500;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'SCDream';
-  src: 
-    url('../fonts/SCDream7.woff') 
-    format('woff');
-  font-weight: 700;
-  font-style: normal;
+    font-family: 'notoSansKR';
+    src: url('../fonts/NotoKR-Medium/notokr-medium.eot'),
+    url('../fonts/NotoKR-Medium/notokr-medium.woff2') format('woff2'),
+    url('../fonts/NotoKR-Medium/notokr-medium.woff') format('woff'),
+    url('../fonts/NotoKR-Medium/notokr-medium.ttf') format('truetype'),
+    url('../fonts/NotoKR-Medium/notokr-medium.svg#notokr-medium') format('svg');
+    font-weight: 400;
+    font-style: normal;
 }
 
-@font-face {
-  font-family: 'SCDream';
-  src: 
-    url('../fonts/SCDream8.woff') 
-    format('woff');
-  font-weight: 800;
-  font-style: normal;
+@font-face { 
+	font-family: 'notoSansKR';
+	src: url('../fonts/NotoKR-Regular/notokr-regular.eot'),
+	url('../fonts/NotoKR-Regular/notokr-regular.woff2') format('woff2'), 
+	url('../fonts/NotoKR-Regular/notokr-regular.woff') format('woff'), 
+	url('../fonts/NotoKR-Regular/notokr-regular.ttf') format('truetype'), 
+	url('../fonts/NotoKR-Regular/notokr-regular.svg#notokr-regular') format('svg'); 
+	font-weight: 300; 
+	font-style: normal; 
 }
 
-@font-face {
-  font-family: 'SCDream';
-  src: 
-    url('../fonts/SCDream9.woff') 
-    format('woff');
-  font-weight: 900;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'ink';
-  src: 
-    url('../fonts/InkLipquid.woff') 
-    format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'tvN';
-  src: 
-    url('../fonts/tvnEnjoy.woff') 
-    format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'cafe24';
-  src: 
-    url('../fonts/cafe24.woff') 
-    format('woff');
-  font-weight: normal;
-  font-style: normal;
+@font-face { 
+	font-family: 'notoSansKR';
+	src: url('../fonts/NotoKR-Light/notokr-light.eot'),
+	url('../fonts/NotoKR-Light/notokr-light.woff2') format('woff2'), 
+	url('../fonts/NotoKR-Light/notokr-light.woff') format('woff'), 
+	url('../fonts/NotoKR-Light/notokr-light.ttf') format('truetype'), 
+	url('../fonts/NotoKR-Light/notokr-light.svg#notokr-light') format('svg'); 
+	font-weight: 200; 
+	font-style: normal; 
 }

@@ -1,16 +1,20 @@
 <template>
   <v-dialog
     v-model="visible"
-    width="unset"
+    width="320"
     max-width="500"
   >
-    <v-card>
-      <v-card-title>타이틀을 입력하세요</v-card-title>
-      <v-card-text>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus accusamus magnam esse sunt minima itaque et debitis unde tenetur, quas nulla culpa suscipit hic iusto repellat. Voluptate deleniti perferendis numquam!</v-card-text>
+    <v-card class="card">
+      <v-card-title>
+        <h4>{{this.title}}</h4>
+      </v-card-title>
+      <v-card-text>
+        <p>{{this.description}}</p>
+      </v-card-text>
       <v-card-actions>
         <v-spacer />
-        <v-btn text>확인</v-btn>
-        <v-btn text>취소</v-btn>
+        <v-btn text class="cancle" @click="show(false)">취소</v-btn>
+        <v-btn text class="done" @click="show(false)">확인</v-btn>
       </v-card-actions>
     </v-card>
   </v-dialog>
@@ -20,7 +24,21 @@
 import ModalMixin from '@/mixins/modal.js'
 
 export default {
-
+  props:[
+    'title','description'
+  ],
   mixins:[ModalMixin],
 }
 </script>
+
+<style lang="scss" scoped>
+
+.card{
+  h4{font-size:18px;font-weight:500}
+  p{font-size:16px;font-weight:400}
+
+  .done{color:#01addd}
+}
+
+
+</style>
