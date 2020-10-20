@@ -24,22 +24,27 @@
       >
         <template v-slot:item.options>
           <div class="itemBtns">
-            <v-btn text>포인트 사용내역</v-btn>
-            <v-btn text>포인트충전/차감</v-btn>
+            <v-btn text @click="()=> $refs.userPointList.show(true)">포인트 사용내역</v-btn>
+            <v-btn text @click="()=> $refs.pointControl.show(true)">포인트충전/차감</v-btn>
           </div>
         </template>
       </v-data-table>
     </div>
+
+    <UserPointList ref="userPointList" /> 
+    <PointControl ref="pointControl" /> 
   </div>
 </template>
 
 <script>
 
 import TableDateSearch from "@/components/tableDateSearch.vue";
+import UserPointList from '@/components/modal/userPointList.vue';
+import PointControl from '@/components/modal/pointControl.vue';
 
 export default {
   components: {
-    TableDateSearch,
+    TableDateSearch, UserPointList, PointControl
   },
   data() {
     return {

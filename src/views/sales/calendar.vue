@@ -136,7 +136,6 @@ export default {
       }
     }
   },
-
   methods:{
     prev(){
       this.$refs.calendar.prev();

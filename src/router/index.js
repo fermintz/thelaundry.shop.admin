@@ -1,7 +1,6 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import DefaultLayout from "../layout/default";
-import Home from "../views/Home.vue";
 import Login from "../views/login.vue";
 import Error404 from "../views/404.vue";
 import Calendar from '../views/sales/calendar.vue';
@@ -26,15 +25,6 @@ const routes = [
     children:[
       {
         path: "/",
-        name: "Home",
-        component: Home,
-        meta:{
-          title:'메인',
-          description:'메인입니다'
-        }
-      },
-      {
-        path: "/sales/calendar",
         name: "calendar",
         component: Calendar,
         meta:{
@@ -65,8 +55,8 @@ const routes = [
         name: "chart-sales",
         component: ChartSales,
         meta:{
-          title:'장비별 매출',
-          description:'장비별 매출내역을 확인할 수 있습니다.'
+          title:'기간별 매출그래프',
+          description:'매출을 그래프로 확인할 수 있습니다.'
         }
       },
       {

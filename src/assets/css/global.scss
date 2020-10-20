@@ -16,7 +16,6 @@ div,dl,dt,dd,h1,h2,h3,h4,h5,h6,ul,li,span,strong,p,label{
   font-weight:300;
   padding:0;
   margin:0;
-
 }
 
 .v-tabs:not(.v-tabs--vertical).v-tabs--right > .v-slide-group--is-overflowing.v-tabs-bar--is-mobile:not(.v-slide-group--has-affixes) .v-slide-group__next{
@@ -78,7 +77,7 @@ img{display:block;}
     justify-content: space-between;
     margin-bottom:15px;
     dt{font-size:13px;color:#888}
-    dd{font-size:14px;color:#292929;} 
+    dd{font-size:14px;color:#292929;text-align:right} 
   }
 
   .card-head{

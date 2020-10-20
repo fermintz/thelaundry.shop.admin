@@ -15,7 +15,7 @@
               <span>금액투입</span>
               <v-icon>mdi-chevron-right</v-icon>             
             </v-btn>
-            <v-btn text @click="()=>$refs.breakdown.show(true)">
+            <v-btn text @click="()=>$refs.remoteList.show(true)">
               <span>원격제어내역 보기</span>
               <v-icon>mdi-chevron-right</v-icon>
             </v-btn>
@@ -27,19 +27,19 @@
     <CoinRemote 
       ref="coinRemote"
     />
-    <Breakdown 
-      ref="breakdown"
+    <RemoteList
+      ref="remoteList"
     />
   </div>
 </template>
 
 <script>
 import CoinRemote from '@/components/modal/coinRemote.vue';
-import Breakdown from '@/components/modal/breakdown.vue';
+import RemoteList from '@/components/modal/remoteList.vue';
 
 export default {
   components:{
-    CoinRemote, Breakdown
+    CoinRemote, RemoteList
   },
   data(){
     return{
